@@ -1,5 +1,5 @@
 ---
-title: Type I Error of t-test and Wilcoxon runk-sum test in small sample size
+title: Type I Error of t-test and Wilcoxon rank-sum test in small sample size
 author: ARA Toshiaki
 date: "2020-05-17"
 ---
@@ -8,7 +8,7 @@ date: "2020-05-17"
 
 I have interest in type I error of Welch test in **small** sample size.
 In this simulation,
-I show type I error of *t*-test and Wilcoxon runk-sum test
+I show type I error of *t*-test and Wilcoxon rank-sum test
  in small sample size.
 
 # Condition
@@ -32,9 +32,9 @@ Normal distribution
    - `t.test` with `var.equal = TRUE` option
 1. Welch test
    - `t.test`
-1. Wilcoxon runk-sum test
+1. Wilcoxon rank-sum test
    - `wilcox_test` in `coin` package
-1. exact Wilcoxon runk-sum test
+1. exact Wilcoxon rank-sum test
    - `wilcox_test` in `coin` package with `distribution = "exact"` option
 
 # Result of Monte Carlo simulation
