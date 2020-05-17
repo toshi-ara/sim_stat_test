@@ -9,25 +9,25 @@ seeds <- c(1, 77, 1234)
 
 ## start simulation
 n1 <- 3; n2 <- 3
-walk(seeds, ~ test_simulation(n1, n2, s1, s2, 50, seed = .))
+walk(seeds, ~ test_simulation(n1, n2, s1, s2, n_iter, seed = .))
 
 n1 <- 4; n2 <- 4
-walk(seeds, ~ test_simulation(n1, n2, s1, s2, 50, seed = .))
+walk(seeds, ~ test_simulation(n1, n2, s1, s2, n_iter, seed = .))
 
 n1 <- 5; n2 <- 5
-walk(seeds, ~ test_simulation(n1, n2, s1, s2, 50, seed = .))
+walk(seeds, ~ test_simulation(n1, n2, s1, s2, n_iter, seed = .))
 
 n1 <- 6; n2 <- 6
-walk(seeds, ~ test_simulation(n1, n2, s1, s2, 50, seed = .))
+walk(seeds, ~ test_simulation(n1, n2, s1, s2, n_iter, seed = .))
 
 n1 <- 3; n2 <- 4
-walk(seeds, ~ test_simulation(n1, n2, s1, s2, 50, seed = .))
+walk(seeds, ~ test_simulation(n1, n2, s1, s2, n_iter, seed = .))
 
 n1 <- 3; n2 <- 5
-walk(seeds, ~ test_simulation(n1, n2, s1, s2, 50, seed = .))
+walk(seeds, ~ test_simulation(n1, n2, s1, s2, n_iter, seed = .))
 
 n1 <- 4; n2 <- 5
-walk(seeds, ~ test_simulation(n1, n2, s1, s2, 50, seed = .))
+walk(seeds, ~ test_simulation(n1, n2, s1, s2, n_iter, seed = .))
 
 
 ## plot figures
